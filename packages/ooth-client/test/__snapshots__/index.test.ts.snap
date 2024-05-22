@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OothClient can construct 1`] = `
+OothClient {
+  "api": undefined,
+  "listeners": Object {},
+  "oothUrl": "http://localhost:3000/auth",
+  "secondaryAuthMode": "session",
+  "started": false,
+  "ws": false,
+}
+`;

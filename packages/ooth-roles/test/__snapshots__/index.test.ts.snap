@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ooth-roles admin can set roles 1`] = `
+Object {
+  "_id": "<obfuscated>",
+  "guest": Object {},
+  "roles": Object {
+    "roles": Array [
+      "admin",
+      "editor",
+    ],
+  },
+}
+`;
+
+exports[`ooth-roles nonadmin can't set roles 1`] = `
+Object {
+  "message": "Only an admin can set roles.",
+  "status": "error",
+}
+`;

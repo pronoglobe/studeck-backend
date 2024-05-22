@@ -1,0 +1,7 @@
+node_modules
+lib
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+coverage
+.idea

@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ooth-local after registration after login can change password 1`] = `
+Object {
+  "message": "Password has been changed.",
+  "user": Object {
+    "local": Object {
+      "email": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can change password 2`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Your password for Example Site has been changed.",
+      "from": "noreply@example.com",
+      "html": "Your password for Example Site has been changed.",
+      "subject": "Example Site password changed",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can generate verification token 1`] = `
+Object {
+  "_id": "<obfuscated>",
+  "email": "test@example.com",
+  "verificationToken": "<obfuscated>",
+}
+`;
+
+exports[`ooth-local after registration after login can generate verification token 2`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Please verify your Example Site email by opening the following url: /verify-email?<obfuscated>&<obfuscated>.",
+      "from": "noreply@example.com",
+      "html": "Please verify your Example Site email by opening the following url: /verify-email?<obfuscated>&<obfuscated>.",
+      "subject": "Verify your Example Site address",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can set email 1`] = `
+Object {
+  "message": "Email updated.",
+  "user": Object {
+    "local": Object {
+      "email": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can set email 2`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Please verify your Example Site email by opening the following url: /verify-email?<obfuscated>&<obfuscated>.",
+      "from": "noreply@example.com",
+      "html": "Please verify your Example Site email by opening the following url: /verify-email?<obfuscated>&<obfuscated>.",
+      "subject": "Verify your Example Site address",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can set username 1`] = `
+Object {
+  "message": "Username updated.",
+  "user": Object {
+    "local": Object {
+      "email": "test@example.com",
+      "username": "heythere12_",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can verify user with token 1`] = `
+Object {
+  "message": "Email verified",
+  "user": Object {
+    "_id": "<obfuscated>",
+    "local": Object {
+      "email": "test@example.com",
+      "verified": true,
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can verify user with token 2`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Your Example Site address has been verified.",
+      "from": "noreply@example.com",
+      "html": "Your Example Site address has been verified.",
+      "subject": "Example Site address verified",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration after login can't set invalid username 1`] = `
+Object {
+  "message": "Username must be all lowercase, contain only letters, numbers and _ (starting with a letter), and be between 4 and 20 characters long.",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local after registration after login can't verify user with invalid token 1`] = `
+Object {
+  "message": "Verification token invalid, expired or already used.",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local after registration can forget password 1`] = `
+Object {
+  "_id": "<obfuscated>",
+  "email": "test@example.com",
+  "passwordResetToken": "<obfuscated>",
+}
+`;
+
+exports[`ooth-local after registration can forget password 2`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Reset your password for Example Site on the following page: /reset-password?<obfuscated>&<obfuscated>",
+      "from": "noreply@example.com",
+      "html": "Reset your password for Example Site on the following page: /reset-password?<obfuscated>&<obfuscated>",
+      "subject": "Reset Example Site password",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration can login 1`] = `
+Object {
+  "user": Object {
+    "local": Object {
+      "email": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration can reset password 1`] = `
+Object {
+  "message": "Password has been reset.",
+}
+`;
+
+exports[`ooth-local after registration can reset password 2`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Your password for Example Site has been reset.",
+      "from": "noreply@example.com",
+      "html": "Your password for Example Site has been reset.",
+      "subject": "Example Site password reset",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local after registration can't reset password with invalid token 1`] = `
+Object {
+  "message": "Password reset token invalid, expired or already used.",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local after registration login fails with wrong password 1`] = `
+Object {
+  "message": "Incorrect password.",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local can register 1`] = `
+Object {
+  "message": "User registered successfully.",
+}
+`;
+
+exports[`ooth-local can register 2`] = `
+Object {
+  "_id": "<obfuscated>",
+  "email": "test@example.com",
+  "verificationToken": "<obfuscated>",
+}
+`;
+
+exports[`ooth-local can register 3`] = `
+Object {
+  "0": Object {
+    "0": Object {
+      "body": "Thank you for joining Example Site!",
+      "from": "noreply@example.com",
+      "html": "Thank you for joining Example Site!",
+      "subject": "Welcome to Example Site",
+      "to": "test@example.com",
+    },
+  },
+  "1": Object {
+    "0": Object {
+      "body": "Please verify your Example Site email by opening the following url: /verify-email?<obfuscated>&<obfuscated>.",
+      "from": "noreply@example.com",
+      "html": "Please verify your Example Site email by opening the following url: /verify-email?<obfuscated>&<obfuscated>.",
+      "subject": "Verify your Example Site address",
+      "to": "test@example.com",
+    },
+  },
+}
+`;
+
+exports[`ooth-local fails without email 1`] = `
+Object {
+  "message": "Invalid email",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local fails without password 1`] = `
+Object {
+  "message": "Invalid password",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local fails without valid password 1`] = `
+Object {
+  "message": "Password must contain digits, lowercase and uppercase letters and be at least 6 characters long.",
+  "status": "error",
+}
+`;
+
+exports[`ooth-local translates 1`] = `
+Object {
+  "message": "Invalid email",
+  "status": "error",
+}
+`;
